@@ -6,6 +6,13 @@
 .container {
   max-width: 500px;
   margin: 100px auto;
-  border: 1px solid black;
+
   text-align: center;
+}
+.body {
+  background: url(../images/background.jpg);
+  background-position: center;
+  background-size: 1600px, 1000px;
+  background-repeat: no-repeat;
+  padding: 210px;
 }
