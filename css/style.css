@@ -4,10 +4,11 @@
 }
 
 .container {
-  max-width: 500px;
+  max-width: 1000px;
   margin: 100px auto;
-
+  border: solid black;
   text-align: center;
+  vertical-align: top;
 }
 .body {
   background: url(../images/background.jpg);
@@ -15,4 +16,9 @@
   background-size: 1600px, 1000px;
   background-repeat: no-repeat;
   padding: 210px;
+}
+.column {
+  display: inline-block;
+  border: solid black;
+  vertical-align: top;
 }

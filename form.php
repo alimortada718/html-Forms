@@ -11,10 +11,21 @@ if(isset($_POST["submit"])) {
 
 $fam = $_POST["fam"];
 $password = $_POST ["password"];
-echo("username: ").$fam;
-echo("<br>");
 
-echo("password:  ").$password ;
+$username ="ali718";
+$pw ="1";
+
+if($fam == $username && $pw == $password){
+
+    header("location:content.php");
+
+
+}else{
+    header("location:index.php");
+
+
+}
+
 
 
 }

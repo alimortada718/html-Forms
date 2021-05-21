@@ -26,24 +26,35 @@ if (isset($_post['username']) && isset($_POST['password'])) {
 
 </header>
 <div class="body">
-    <div class="container">
-        <div class="logo">
-            <img src="images/finger.jpg" height="50px">
+
+    <div class="backgroundimages">
+        <div class="container">
+
+
+
+
+
+
+
+            <div class="logo">
+                <img src="images/finger.jpg" height="50px">
+            </div>
+            <form class="forms" action="form.php" method="post">
+                <div>
+                    <input type="text" id="fam" name="fam" placeholder="firstname">
+                </div>
+                <div>
+
+                    <input type="password" name="password">
+                </div>
+                <div>
+
+                    <input type="submit" name="submit" value="login">
+                </div>
+            </form>
+            <a href="resetpw.php">Reset Password </a>
         </div>
-        <form class="forms" action="form.php" method="post">
-            <div>
-                <input type="text" id="fam" name="fam" placeholder="firstname">
-            </div>
-            <div>
-
-                <input type="password" name="password">
-            </div>
-            <div>
-
-                <input type="submit" name="submit" value="login">
-            </div>
-        </form>
-
     </div>
+</div>
 
 </html>
