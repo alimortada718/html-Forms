@@ -30,12 +30,6 @@ if (isset($_post['username']) && isset($_POST['password'])) {
     <div class="backgroundimages">
         <div class="container">
 
-
-
-
-
-
-
             <div class="logo">
                 <img src="images/finger.jpg" height="50px">
             </div>

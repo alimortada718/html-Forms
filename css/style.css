@@ -22,3 +22,6 @@
   border: solid black;
   vertical-align: top;
 }
+.submitbutton {
+  text-align: right;
+}
