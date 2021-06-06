@@ -1,13 +1,8 @@
 <?php
-/* session_start();
-if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] == false) {
-    header("location:index.php");
-}
-if(isset($_SESSION['loggedin']) || $_SESSION['loggedin'] == false) {
-    echo("set");
-}
-*/
-if(isset($_POST["submit"])) {
+
+include "includes/data.php";
+
+ if(isset($_POST["submit"])) {
 
 $fam = $_POST["fam"];
 $password = $_POST ["password"];
@@ -17,16 +12,12 @@ $pw ="1";
 
 if($fam == $username && $pw == $password){
 
-    header("location:content.php");
-
+    header("location:employeetracking.php");
 
 }else{
-    header("location:index.php");
-
+    header("location:index.php?error='2'");
 
 }
-
-
 
 }
 

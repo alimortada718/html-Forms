@@ -124,9 +124,6 @@ if(isset($_POST["submit"])) {
     <link rel="stylesheet" href="css/style.css">
 
 </head>
-<header>
-    <h2>gfu</h2>
-</header>
 <div class="employeetracking">
 
     <div class="container">

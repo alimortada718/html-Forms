@@ -49,6 +49,20 @@ if (isset($_post['username']) && isset($_POST['password'])) {
             <a href="resetpw.php">Reset Password </a>
         </div>
     </div>
+    <?php 
+
+if(isset($_GET["error"])){
+
+
+
+    echo("<div class='try'>
+    <h1 style='color:powderblue;'>try again</h1>
+    </div>");
+} 
+
+
+?>
+
 </div>
 
 </html>
