@@ -56,7 +56,7 @@ if(isset($_GET["error"])){
 
 
     echo("<div class='try'>
-    <h1 style='color:powderblue;'>try again</h1>
+    <h1 style='color:blue;'>try again</h1>
     </div>");
 } 
 

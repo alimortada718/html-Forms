@@ -262,6 +262,9 @@ if(isset($_POST["submit"])) {
                     <input size="10" type="text" id="endday6" name="endday6" placeholder="endday 6">
                 </div>
             </div>
+            <div>
+                <h3>drip</h3>
+            </div>
 
 
             <div class="submitbutton">

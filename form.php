@@ -22,4 +22,4 @@ if($fam == $username && $pw == $password){
 }
 
 ?>
-<h2>you have logged in to the system bitch!</h2>
+<h2>you have logged in to the system !</h2>
